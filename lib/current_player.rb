@@ -2,9 +2,11 @@
 def turn_count(board)
   counter = 0
   board.each do | place |
-    while place == "X" || "O" do
+    if place == "X" || "O" 
     counter += 1
     return counter
+  else
+    puts "you suck"
     end
   end
 end
