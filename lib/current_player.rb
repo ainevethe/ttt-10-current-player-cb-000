@@ -4,7 +4,7 @@ def turn_count(board)
   board.each do | place |
     if place == "X" || "O"
     counter += 1
-    puts counter
+    return counter
     end
   end
 end
