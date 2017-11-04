@@ -4,10 +4,6 @@ def turn_count(board)
   board.each do | place |
     if place == "X" || "O"
     counter += 1
-    return counter
-  else
-    puts "you suck"
-    end
   end
 end
 
