@@ -1,8 +1,8 @@
 
 def turn_count(board)
-  counter = 1
+  counter = 0
   board.each do | place |
-    if place == "X" || "O"
+    while place == "X" || "O" do
     counter += 1
     return counter
     end
